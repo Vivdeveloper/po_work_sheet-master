@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-29 11:51:26.758409",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "branch_wh",
+  "fms"
+ ],
+ "fields": [
+  {
+   "fieldname": "branch_wh",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Branch (W/H)",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "fms",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "FMS",
+   "options": "\nF\nM\nS"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-29 11:51:26.758409",
+ "modified_by": "Administrator",
+ "module": "PO data worksheet",
+ "name": "FMS",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

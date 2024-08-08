@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include po_data_worksheet *.css
+recursive-include po_data_worksheet *.csv
+recursive-include po_data_worksheet *.html
+recursive-include po_data_worksheet *.ico
+recursive-include po_data_worksheet *.js
+recursive-include po_data_worksheet *.json
+recursive-include po_data_worksheet *.md
+recursive-include po_data_worksheet *.png
+recursive-include po_data_worksheet *.py
+recursive-include po_data_worksheet *.svg
+recursive-include po_data_worksheet *.txt
+recursive-exclude po_data_worksheet *.pyc
