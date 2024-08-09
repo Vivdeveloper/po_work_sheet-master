@@ -73,6 +73,15 @@ frappe.query_reports["PO data worksheet"] = {
 			"options": "Item Group",
 		},
 		{
+			fieldname: "item_group",
+			label: __("Item Group"),
+			fieldtype: "MultiSelectList",
+			options: "Item Group",
+			get_data: function (txt) {
+				return frappe.db.get_link_options("Item Group", txt);
+			},
+		},
+		{
 			"fieldname": "price_list",
 			"label": __("Price List"),
 			"fieldtype": "Link",
